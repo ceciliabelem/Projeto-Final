@@ -21,7 +21,8 @@ Contexto:
 ID: CT_0002
 Cenario: Verificar cupom inválido
 
-        Quando digito o cupom inválido
+        Quando clico em concluir o pedido
+        E digito o cupom inválido
         E clico em Concluir pedido
 
         Então o cupom é dado como invalido

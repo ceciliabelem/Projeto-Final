@@ -18,15 +18,17 @@ Contexto:
     E clico em Comprar Agora 
     E clico em Concluir pedido
 
-ID: CT_0003
-Cenario: Verificar cupom em branco
+ID: CT_0001
+Cenario: Verificar cupom válido
 
-        Quando ignoro o campo cupom
+        Quando clico em concluir o pedido
+        E digito o cupom válido
         E clico em Concluir pedido
 
-        Então o pedido é fechado sem exigir cupom
+        Então o cupom é validado
 
 Esquema do Cenário:
 Exemplos:
 | Cupom |
-|       | 
+|Lor123 | 
+|Trios10| 

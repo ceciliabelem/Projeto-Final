@@ -1,6 +1,6 @@
 #language: pt
 #encoding: UTF-8
-#author: Poderosas Thefemtech
+#author: Cecília
 #date: 15/11/2021
 #version: 1.0
 
@@ -8,7 +8,7 @@
 Funcionalidade: <Curso>
 
 User Story
-O grupo <Poderosas Thefemtech> como usuario do site da Trios de Capacitação
+Eu <Cecília> como usuario do site da Trios de Capacitação
 Quer adquirir um curso
 Para obter qualificação
 
@@ -18,7 +18,7 @@ Contexto:
     E clico em Comprar Agora 
     E clico em Concluir pedido
 
-ID: ID_0001
+ID: CT_0001
 Cenario: Verificar cupom válido
 
         Quando digito o cupom válido
